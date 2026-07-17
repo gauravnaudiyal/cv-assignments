@@ -1,62 +1,38 @@
-# Computer Vision Assignments 👁️🧠
+# Computer Vision Assignments
 
-A collection of **Computer Vision assignments** completed as part of the MSc Computer Science programme at **Trinity College Dublin**. Implemented in Python using Jupyter Notebooks.
+These are my computer vision assignments from my MSc at Trinity College Dublin. The module covered a wide range of topics from classical image processing all the way to deep learning for visual recognition, and each week was a new problem to get your head around.
 
-## Overview
+Everything is in Python using Jupyter Notebooks.
 
-This repository contains weekly lab assignments covering classical and modern computer vision techniques, exploring image processing, feature detection, deep learning, and visual recognition tasks.
-
-## Topics Covered
+## Topics covered
 
 - Image filtering, thresholding, and morphological operations
 - Edge detection (Canny, Sobel, Laplacian)
-- Feature extraction — SIFT, ORB, Harris corners
+- Feature extraction with SIFT, ORB, and Harris corners
 - Optical flow and motion estimation
 - Object detection and tracking
-- Convolutional Neural Networks (CNNs) for image classification
-- Segmentation techniques
+- CNNs for image classification
+- Image segmentation
 - Camera calibration and geometric transformations
 
-## Tech Stack
+## Tools used
 
-| Tool | Purpose |
-|------|---------|
-| Python 3 | Core language |
-| OpenCV | Computer vision library |
-| NumPy / SciPy | Numerical computation |
-| Matplotlib | Visualisation |
-| TensorFlow / PyTorch | Deep learning models |
-| Jupyter Notebook | Interactive development |
+- Python 3
+- OpenCV
+- NumPy and SciPy
+- Matplotlib
+- TensorFlow / PyTorch
+- Jupyter Notebook
 
-## Repository Structure
+## Running the notebooks
 
-```
-cv-assignments/
-├── assignment_1/    # [Topic: e.g. Image Filtering]
-├── assignment_2/    # [Topic: e.g. Feature Detection]
-├── assignment_3/    # [Topic: e.g. Object Detection]
-└── ...              # Additional weekly assignments
+```bash
+git clone https://github.com/gauravnaudiyal/cv-assignments.git
+cd cv-assignments
+pip install opencv-python numpy matplotlib scipy jupyter
+jupyter notebook
 ```
 
-## Getting Started
+Open any notebook from the assignment folders and run the cells in order.
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/gauravnaudiyal/cv-assignments.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install opencv-python numpy matplotlib scipy jupyter
-   ```
-3. Launch Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-
-## Academic Context
-
-Completed as part of the **Computer Vision** module in the MSc Computer Science programme at Trinity College Dublin. All code is original coursework.
-
----
-
-*Developed by [Gaurav Naudiyal](https://github.com/gauravnaudiyal) — MSc Computer Science, Trinity College Dublin*
+Developed by Gaurav Naudiyal, MSc Computer Science, Trinity College Dublin.
